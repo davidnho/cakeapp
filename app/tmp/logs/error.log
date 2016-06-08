@@ -1,0 +1,639 @@
+2016-06-01 08:01:43 Error: Fatal Error (1): Class 'Cake\Controller\Component' not found in [C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\Plugin\DebugKit\Controller\Component\ToolbarComponent.php, line 25]
+2016-06-01 08:01:43 Error: [FatalErrorException] Class 'Cake\Controller\Component' not found
+Request URL: /ck_forum/
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Cake\\Con...', 'C:\\Users\\NoelD\\...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Cake\\Con...', 'C:\\Users\\NoelD\\...', 25, Array)
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'Cake\\Con...', 'C:\\Users\\NoelD\\...', 25, Array)
+#3 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-01 08:01:56 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /ck_forum/
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(227): CakePlugin::path('DebugKit')
+#1 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#2 [internal function]: App::load('ToolbarComponen...')
+#3 [internal function]: spl_autoload_call('ToolbarComponen...')
+#4 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#5 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#6 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PagesController))
+#7 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#8 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-06-01 08:03:16 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /ck_forum/
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(227): CakePlugin::path('DebugKit')
+#1 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#2 [internal function]: App::load('ToolbarComponen...')
+#3 [internal function]: spl_autoload_call('ToolbarComponen...')
+#4 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#5 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#6 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PagesController))
+#7 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#8 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-06-01 08:03:24 Error: [MissingComponentException] Component class ToolbarComponent could not be found.
+Exception Attributes: array (
+  'class' => 'ToolbarComponent',
+  'plugin' => 'DebugKit',
+)
+Request URL: /ck_forum/
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#1 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PagesController))
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#3 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-01 08:05:26 Error: Fatal Error (1): Class 'Cake\Controller\Component' not found in [C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\Plugin\DebugKit\Controller\Component\ToolbarComponent.php, line 25]
+2016-06-01 08:05:26 Error: [FatalErrorException] Class 'Cake\Controller\Component' not found
+Request URL: /ck_forum/
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Cake\\Con...', 'C:\\Users\\NoelD\\...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Cake\\Con...', 'C:\\Users\\NoelD\\...', 25, Array)
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'Cake\\Con...', 'C:\\Users\\NoelD\\...', 25, Array)
+#3 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-01 08:05:56 Error: [MissingComponentException] Component class ToolbarComponent could not be found.
+Exception Attributes: array (
+  'class' => 'ToolbarComponent',
+  'plugin' => 'DebugKit',
+)
+Request URL: /ck_forum/
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#1 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PagesController))
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#3 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-01 08:08:56 Error: Fatal Error (1): Class 'Cake\Controller\Component' not found in [C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\Plugin\DebugKit\Controller\Component\ToolbarComponent.php, line 25]
+2016-06-01 08:08:56 Error: [FatalErrorException] Class 'Cake\Controller\Component' not found
+Request URL: /ck_forum/
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Cake\\Con...', 'C:\\Users\\NoelD\\...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Cake\\Con...', 'C:\\Users\\NoelD\\...', 25, Array)
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'Cake\\Con...', 'C:\\Users\\NoelD\\...', 25, Array)
+#3 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-01 08:09:57 Error: [MissingComponentException] Component class ToolbarComponent could not be found.
+Exception Attributes: array (
+  'class' => 'ToolbarComponent',
+  'plugin' => 'DebugKit',
+)
+Request URL: /ck_forum/
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#1 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PagesController))
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#3 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-01 08:11:26 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /ck_forum/
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(227): CakePlugin::path('DebugKit')
+#1 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#2 [internal function]: App::load('ToolbarComponen...')
+#3 [internal function]: spl_autoload_call('ToolbarComponen...')
+#4 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#5 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#6 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PagesController))
+#7 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#8 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-06-01 08:44:43 Error: [MissingActionException] Action TopicsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'TopicsController',
+  'action' => 'index',
+)
+Request URL: /ck_forum/topics
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-01 08:44:50 Error: [MissingActionException] Action TopicsController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'TopicsController',
+  'action' => 'add',
+)
+Request URL: /ck_forum/topics/add
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-01 08:45:01 Error: [MissingViewException] View file "C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\View\Topics\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Users\\NoelD\\Google Drive\\projects\\php\\ck_forum\\app\\View\\Topics\\add.ctp',
+)
+Request URL: /ck_forum/topics/add
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#4 C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-01 08:45:01 Error: [MissingViewException] View file "C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\View\Topics\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Users\\NoelD\\Google Drive\\projects\\php\\ck_forum\\app\\View\\Topics\\add.ctp',
+)
+Request URL: /ck_forum/topics/add
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#4 C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-01 08:59:54 Error: [MissingActionException] Action TopicsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'TopicsController',
+  'action' => 'index',
+)
+Request URL: /ck_forum/topics/index
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-01 09:00:37 Error: [MissingViewException] View file "C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\View\Topics\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Users\\NoelD\\Google Drive\\projects\\php\\ck_forum\\app\\View\\Topics\\index.ctp',
+)
+Request URL: /ck_forum/topics/index
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#4 C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-01 09:00:55 Error: [MissingViewException] View file "C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\View\Topics\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Users\\NoelD\\Google Drive\\projects\\php\\ck_forum\\app\\View\\Topics\\index.ctp',
+)
+Request URL: /ck_forum/topics/index
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#4 C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-02 00:44:36 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Model\Datasource\Database\Mysql.php, line 183]
+2016-06-02 00:44:36 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /ck_forum/topics/index
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\\Users\\NoelD\\...', 183)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\\Users\\NoelD\\...', 183, Array)
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\\Users\\NoelD\\...', 183, Array)
+#3 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-02 01:21:36 Error: [MissingControllerException] Controller class ForumController could not be found.
+Exception Attributes: array (
+  'class' => 'ForumController',
+  'plugin' => NULL,
+)
+Request URL: /ck_forum/forum
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-02 01:21:41 Error: [MissingControllerException] Controller class ForumController could not be found.
+Exception Attributes: array (
+  'class' => 'ForumController',
+  'plugin' => NULL,
+)
+Request URL: /ck_forum/forum/add
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-02 01:21:52 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /ck_forum/add
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-02 03:43:25 Error: [MissingActionException] Action TopicsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'TopicsController',
+  'action' => 'view',
+)
+Request URL: /ck_forum/topics/view
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-02 03:43:44 Error: [MissingActionException] Action TopicsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'TopicsController',
+  'action' => 'view',
+)
+Request URL: /ck_forum/topics/view
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-02 03:47:06 Error: [MissingActionException] Action TopicsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'TopicsController',
+  'action' => 'view',
+)
+Request URL: /ck_forum/topics/view/1
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-02 04:12:15 Error: [MissingActionException] Action TopicsController::edit() could not be found.
+Exception Attributes: array (
+  'controller' => 'TopicsController',
+  'action' => 'edit',
+)
+Request URL: /ck_forum/topics/edit/1
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-02 04:12:18 Error: [MissingActionException] Action TopicsController::delete() could not be found.
+Exception Attributes: array (
+  'controller' => 'TopicsController',
+  'action' => 'delete',
+)
+Request URL: /ck_forum/topics/delete/1
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-02 04:59:56 Error: [MissingActionException] Action PostsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'index',
+)
+Request URL: /ck_forum/posts
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-02 05:00:38 Error: [MissingViewException] View file "C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\View\Posts\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Users\\NoelD\\Google Drive\\projects\\php\\ck_forum\\app\\View\\Posts\\add.ctp',
+)
+Request URL: /ck_forum/posts/add
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-03 04:05:37 Error: [MissingActionException] Action PostsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'index',
+)
+Request URL: /ck_forum/posts/index
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-03 04:07:35 Error: [MissingActionException] Action PostsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'index',
+)
+Request URL: /ck_forum/posts/index
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-03 04:09:55 Error: Fatal Error (1): Call to undefined function set() in [C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\Controller\PostsController.php, line 15]
+2016-06-03 04:09:55 Error: [FatalErrorException] Call to undefined function set()
+Request URL: /ck_forum/posts/add
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\Users\\NoelD\\...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\Users\\NoelD\\...', 15, Array)
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\Users\\NoelD\\...', 15, Array)
+#3 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-03 04:10:20 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\Controller\PostsController.php, line 15]
+2016-06-03 04:10:20 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /ck_forum/posts/add
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\NoelD\\...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\NoelD\\...', 15, Array)
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\NoelD\\...', 15, Array)
+#3 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-03 04:11:39 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\Controller\PostsController.php, line 15]
+2016-06-03 04:11:39 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /ck_forum/posts/add
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\NoelD\\...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\NoelD\\...', 15, Array)
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\NoelD\\...', 15, Array)
+#3 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-03 04:11:40 Error: [MissingActionException] Action PostsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'index',
+)
+Request URL: /ck_forum/posts
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-03 04:11:52 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\Controller\PostsController.php, line 15]
+2016-06-03 04:11:52 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /ck_forum/posts/add
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\NoelD\\...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\NoelD\\...', 15, Array)
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\NoelD\\...', 15, Array)
+#3 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-03 04:14:04 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\Controller\PostsController.php, line 15]
+2016-06-03 04:14:04 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /ck_forum/posts/add
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\NoelD\\...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\NoelD\\...', 15, Array)
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\NoelD\\...', 15, Array)
+#3 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-03 04:15:45 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\Controller\PostsController.php, line 16]
+2016-06-03 04:15:45 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /ck_forum/posts/add
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\NoelD\\...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\NoelD\\...', 16, Array)
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\NoelD\\...', 16, Array)
+#3 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-03 04:15:59 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\Users\NoelD\Google Drive\projects\php\ck_forum\app\Controller\PostsController.php, line 16]
+2016-06-03 04:15:59 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /ck_forum/posts/add
+Stack Trace:
+#0 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\Users\\NoelD\\...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\Users\\NoelD\\...', 16, Array)
+#2 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\Users\\NoelD\\...', 16, Array)
+#3 C:\Users\NoelD\Google Drive\projects\php\ck_forum\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-06 06:00:23 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /ck_forum/
+Stack Trace:
+#0 D:\www\ck_forum\lib\Cake\Core\App.php(227): CakePlugin::path('DebugKit')
+#1 D:\www\ck_forum\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#2 [internal function]: App::load('ToolbarComponen...')
+#3 [internal function]: spl_autoload_call('ToolbarComponen...')
+#4 D:\www\ck_forum\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#5 D:\www\ck_forum\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#6 D:\www\ck_forum\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(TopicsController))
+#7 D:\www\ck_forum\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#8 D:\www\ck_forum\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#9 D:\www\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-06-06 06:02:14 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /ck_forum/users/login
+Stack Trace:
+#0 D:\www\ck_forum\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\www\ck_forum\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 D:\www\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-06 08:36:23 Error: [MissingViewException] View file "D:\www\ck_forum\app\View\Topics\delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\www\\ck_forum\\app\\View\\Topics\\delete.ctp',
+)
+Request URL: /ck_forum/topics/delete/13
+Stack Trace:
+#0 D:\www\ck_forum\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\www\ck_forum\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 D:\www\ck_forum\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 D:\www\ck_forum\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#4 D:\www\ck_forum\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-07 09:01:04 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [D:\www\ck_forum\app\View\Topics\index.ctp, line 38]
+2016-06-07 09:01:05 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /ck_forum/topics/index
+Stack Trace:
+#0 D:\www\ck_forum\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\www\\ck_forum...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\www\\ck_forum...', 38, Array)
+#2 D:\www\ck_forum\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\www\\ck_forum...', 38, Array)
+#3 D:\www\ck_forum\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-07 09:02:13 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [D:\www\ck_forum\app\View\Topics\index.ctp, line 40]
+2016-06-07 09:02:13 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /ck_forum/topics/index
+Stack Trace:
+#0 D:\www\ck_forum\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\www\\ck_forum...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\www\\ck_forum...', 40, Array)
+#2 D:\www\ck_forum\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\www\\ck_forum...', 40, Array)
+#3 D:\www\ck_forum\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-07 09:05:05 Error: Fatal Error (4): syntax error, unexpected end of file in [D:\www\ck_forum\app\View\Topics\index.ctp, line 70]
+2016-06-07 09:05:05 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /ck_forum/topics/index
+Stack Trace:
+#0 D:\www\ck_forum\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\www\\ck_forum...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\www\\ck_forum...', 70, Array)
+#2 D:\www\ck_forum\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\www\\ck_forum...', 70, Array)
+#3 D:\www\ck_forum\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-08 04:26:50 Error: Fatal Error (1): Class 'UsersController' not found in [D:\www\ck_forum\app\View\Topics\view.ctp, line 13]
+2016-06-08 04:26:50 Error: [FatalErrorException] Class 'UsersController' not found
+Request URL: /ck_forum/topics/view/1
+Stack Trace:
+#0 D:\www\ck_forum\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'UsersCon...', 'D:\\www\\ck_forum...', 13)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'UsersCon...', 'D:\\www\\ck_forum...', 13, Array)
+#2 D:\www\ck_forum\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'UsersCon...', 'D:\\www\\ck_forum...', 13, Array)
+#3 D:\www\ck_forum\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-08 04:27:23 Error: Fatal Error (1): Class 'UsersController' not found in [D:\www\ck_forum\app\View\Topics\view.ctp, line 13]
+2016-06-08 04:27:23 Error: [FatalErrorException] Class 'UsersController' not found
+Request URL: /ck_forum/topics/view/1
+Stack Trace:
+#0 D:\www\ck_forum\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'UsersCon...', 'D:\\www\\ck_forum...', 13)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'UsersCon...', 'D:\\www\\ck_forum...', 13, Array)
+#2 D:\www\ck_forum\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'UsersCon...', 'D:\\www\\ck_forum...', 13, Array)
+#3 D:\www\ck_forum\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-08 07:01:45 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'forum\'',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/ubuntu/workspace/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3524): ConnectionManager::getDataSource('default')
+#3 /home/ubuntu/workspace/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3551): Model->setSource('topics')
+#5 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /home/ubuntu/workspace/app/Controller/TopicsController.php(12): Model->find('all')
+#8 [internal function]: TopicsController->index('home')
+#9 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TopicsController), Array)
+#10 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#12 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 /home/ubuntu/workspace/index.php(41): require('/home/ubuntu/wo...')
+#14 {main}
+2016-06-08 07:01:50 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'forum\'',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/ubuntu/workspace/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3524): ConnectionManager::getDataSource('default')
+#3 /home/ubuntu/workspace/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3551): Model->setSource('topics')
+#5 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /home/ubuntu/workspace/app/Controller/TopicsController.php(12): Model->find('all')
+#8 [internal function]: TopicsController->index('home')
+#9 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TopicsController), Array)
+#10 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#12 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 /home/ubuntu/workspace/index.php(41): require('/home/ubuntu/wo...')
+#14 {main}
+2016-06-08 07:01:52 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'forum\'',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/ubuntu/workspace/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3524): ConnectionManager::getDataSource('default')
+#3 /home/ubuntu/workspace/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3551): Model->setSource('topics')
+#5 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /home/ubuntu/workspace/app/Controller/TopicsController.php(12): Model->find('all')
+#8 [internal function]: TopicsController->index('home')
+#9 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TopicsController), Array)
+#10 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#12 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 /home/ubuntu/workspace/index.php(41): require('/home/ubuntu/wo...')
+#14 {main}
+2016-06-08 07:02:42 Error: [MissingTableException] Table topics for model Topic was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'topics',
+  'class' => 'Topic',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3551): Model->setSource('topics')
+#1 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#2 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#3 /home/ubuntu/workspace/app/Controller/TopicsController.php(12): Model->find('all')
+#4 [internal function]: TopicsController->index('home')
+#5 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TopicsController), Array)
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#8 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ubuntu/workspace/index.php(41): require('/home/ubuntu/wo...')
+#10 {main}
+2016-06-08 07:03:31 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3551): Model->setSource('users')
+#1 /home/ubuntu/workspace/lib/Cake/Model/Model.php(1369): Model->getDataSource()
+#2 /home/ubuntu/workspace/lib/Cake/Model/Datasource/DboSource.php(2491): Model->schema()
+#3 /home/ubuntu/workspace/lib/Cake/Model/Datasource/DboSource.php(1716): DboSource->fields(Object(User), 'User', '')
+#4 /home/ubuntu/workspace/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Topic), Object(User), 'belongsTo', 'User', Array, Array, false)
+#5 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Topic), Array)
+#6 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /home/ubuntu/workspace/app/Controller/TopicsController.php(12): Model->find('all')
+#8 [internal function]: TopicsController->index('home')
+#9 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TopicsController), Array)
+#10 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#12 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 /home/ubuntu/workspace/index.php(41): require('/home/ubuntu/wo...')
+#14 {main}
+2016-06-08 07:03:55 Error: [MissingHelperException] Helper class HTMLHelper could not be found.
+Exception Attributes: array (
+  'class' => 'HTMLHelper',
+  'plugin' => false,
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('HTML')
+#1 /home/ubuntu/workspace/lib/Cake/View/View.php(837): HelperCollection->__isset('HTML')
+#2 /home/ubuntu/workspace/app/View/Topics/index.ctp(2): View->__get('HTML')
+#3 /home/ubuntu/workspace/lib/Cake/View/View.php(948): include('/home/ubuntu/wo...')
+#4 /home/ubuntu/workspace/lib/Cake/View/View.php(910): View->_evaluate('/home/ubuntu/wo...', Array)
+#5 /home/ubuntu/workspace/lib/Cake/View/View.php(471): View->_render('/home/ubuntu/wo...')
+#6 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#9 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 /home/ubuntu/workspace/index.php(41): require('/home/ubuntu/wo...')
+#11 {main}
