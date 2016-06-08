@@ -525,3 +525,46 @@ Stack Trace:
 #8 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
 #9 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #10 {main}
+2016-06-08 14:23:15 Error: [MissingTableException] Table topics for model Topic was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'topics',
+  'class' => 'Topic',
+  'ds' => 'default',
+)
+Request URL: /topics/view/0
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3551): Model->setSource('topics')
+#1 /home/ubuntu/workspace/lib/Cake/Model/Model.php(808): Model->getDataSource()
+#2 /home/ubuntu/workspace/app/Controller/TopicsController.php(33): Model->__call('findById', Array)
+#3 /home/ubuntu/workspace/app/Controller/TopicsController.php(33): Topic->findById('0')
+#4 [internal function]: TopicsController->view('0')
+#5 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TopicsController), Array)
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#8 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-06-08 14:24:35 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /topics/view/0
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3551): Model->setSource('users')
+#1 /home/ubuntu/workspace/lib/Cake/Model/Model.php(1369): Model->getDataSource()
+#2 /home/ubuntu/workspace/lib/Cake/Model/Datasource/DboSource.php(2491): Model->schema()
+#3 /home/ubuntu/workspace/lib/Cake/Model/Datasource/DboSource.php(1716): DboSource->fields(Object(User), 'User', '')
+#4 /home/ubuntu/workspace/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Topic), Object(User), 'belongsTo', 'User', Array, Array, false)
+#5 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Topic), Array)
+#6 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /home/ubuntu/workspace/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#8 /home/ubuntu/workspace/lib/Cake/Model/Model.php(808): DboSource->query('findById', Array, Object(Topic))
+#9 /home/ubuntu/workspace/app/Controller/TopicsController.php(33): Model->__call('findById', Array)
+#10 /home/ubuntu/workspace/app/Controller/TopicsController.php(33): Topic->findById('0')
+#11 [internal function]: TopicsController->view('0')
+#12 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TopicsController), Array)
+#13 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#14 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(TopicsController), Object(CakeRequest))
+#15 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
