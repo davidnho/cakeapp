@@ -6,6 +6,7 @@
 
 echo 'Hello world from Cloud9!';
 echo 'Hello from NB!';
+echo 'Hello again from C9';
 
 ?>
 </body>
